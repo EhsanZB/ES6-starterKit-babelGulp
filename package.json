@@ -1,0 +1,24 @@
+{
+  "name": "es6-starter-with-babel-gulp",
+  "version": "1.0.0",
+  "description": "Start your ES6 projects using babel, browserify and gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd dist; live-server --port=8080 --entry-file=index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^2.0.0",
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
